@@ -1,0 +1,166 @@
+/* @import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Raleway:100,200,300,400,500,600,700,800,900&display=swap'); */
+
+@font-face {
+    font-family: 'Kaushan Script';
+    src: url(KaushanScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(Raleway-Regular.ttf);
+}
+
+html, body {
+    height: 100%;
+    max-height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #f9f9f9;
+    margin: 0px;
+    background: linear-gradient(to right, #1299EF, #00BCD4);
+}
+
+.container {
+    width: 100%;
+    max-width: 345px;
+    height: 100%;
+    text-align: center;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Kaushan Script', cursive;
+    color: #fff;
+    margin: 0px;
+}
+
+h1 {
+    border-bottom: 2px solid #fff;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 80px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.themes {
+    width: 100%;
+    height: 220px;
+    overflow-y: auto;
+    border-radius: 5px;
+    background-color: #119aee;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #0382d0;
+}
+
+li a:hover {
+    background-color: #0382d0;
+}
+
+.select {
+    background-color: #30b0ff;
+}
+
+.howWorks {
+    font-size: 16px;
+    border-top: 1px solid #fff;
+    padding-top: 15px;
+    line-height: 24px;
+}
+
+.txtHowWorks {
+    width: 330px;
+    background: #03A9F4;
+    padding: 75px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 2px #fff;
+    position: fixed;
+    left: 50%;
+    top: 145vh;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    transition: 0.50s;
+}
+
+.txtHowWorks.mostrar {
+    top: 45%;
+}
+
+.selectLink {
+    font-weight: 600;
+    color: yellow;
+    padding: 5px;
+    border: 1px solid yellow;
+    border-radius: 3px;
+}
+
+.drawingChosen {
+    min-height: 130px;
+}
+
+.drawingDay {
+    animation: 1s ease 0s 1 fadein, 1s ease 1s 1 fontMintoMax, 1s ease 1s 1 changeColor;
+}
+
+.drawingChosen h2 {
+    animation: 1s ease 0s 1 fadein, 1s ease 1s 1 fontMintoMax, 1s ease 1s 1 changeColor;
+}
+
+@keyframes fontMintoMax {
+    0% {
+        font-size: 8px;
+    }
+    50% {
+        font-size: 46px;
+    }
+    100% {
+        font-size: 36px;
+    }
+}
+
+@keyframes changeColor {
+    0% {
+        color: blue;
+    }
+    100% {
+        color: #fff;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
