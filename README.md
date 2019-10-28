@@ -10,9 +10,10 @@ Reload the page to have a new suggestion of the day or keep clicking the theme t
 
 HTML, CSS and Javascript
 
-Developed by me and <a href="https://github.com/KalebeMatos">Kalebe Matos</a>
+Developed by me (Marconip) and <a href="https://github.com/KalebeMatos">Kalebe Matos</a>
 
-I designed and structure the codes and Kalebe Matos gave me a nice help in Javascript
+I designed and structure the codes<br/>
+Kalebe Matos gave me a nice help in Javascript
 
 <a href="https://codepen.io/marconip/pen/GRRvvGv"> Demo view </a>
 
@@ -20,6 +21,8 @@ I designed and structure the codes and Kalebe Matos gave me a nice help in Javas
 
 <b>Screenshots</b>
 
-![print]()
+![screenshots](https://github.com/marconip/drawing-suggestions/blob/master/files/mobile-telas-375px.jpg)
+
+![screenshots](https://github.com/marconip/drawing-suggestions/blob/master/files/iphone-ipad.jpg)
 
 I hope you enjoy it
