@@ -47,7 +47,7 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 70px;
 }
 
@@ -143,11 +143,11 @@ li a:hover {
     }
 
     50% {
-        font-size: 46px;
+        font-size: 36px;
     }
 
     100% {
-        font-size: 36px;
+        font-size: 30px;
     }
 }
 

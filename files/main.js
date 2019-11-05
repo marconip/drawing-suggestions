@@ -4,10 +4,11 @@ objetos = {
     "Comic_Heroes": ["Batman", "Spider-Man", "Wolverine", "Iron Man", "Captain America", "Superman", "Flash", "Hulk", "Thor", "Storm", "Nightcrawler", "Colossus", "Captain Marvel", "Batgirl"],
     "Comic_Villains": ["Joker", "Magneto", "Catwoman", "Deathstroke", "Lex Luthor", "Thanos", "Harley Quinn", "Bane", "Venom", "Scarecrow", "Doctor Octopus", "Mystique"],
     "Disney_Characters": ["Mickey Mouse", "Minnie Mouse", "Goofy (Disney)", "Donald Duck", "Pluto", "Tinker Bell", "Captain Hook", "Peter Pan", "Maleficent", "Pinocchio", "Elsa (frozen)"],
-    "Games_Characters": ["Ryu (SF)", "Lara croft", "Link (Zelda)", "Cratos (GoW)", "Chun-Li (SF)", "Raiden (MK)", "Scorpion (MK)", "Goro (MK)", "Kitana (MK)", "Sonic", "Mario"],
+    "Games_Characters": ["Tracer (Overwatch)", "Winston (Overwatch)", "Ryu (SF)", "Lara croft", "Link (Zelda)", "Cratos (GoW)", "Chun-Li (SF)", "Raiden (MK)", "Scorpion (MK)", "Goro (MK)", "Kitana (MK)", "Sonic", "Mario"],
     "Fruts": ["avocado", "pineapple", "banana", "orange", "lemon", "apple", "grape", "watermelon", "coconut", "cherry", "strawberry", "papaya", "passion fruit"],
     "Monsters": ["frankenstein", "vampire", "wolfman", "zombie", "dragon", "godzilla", "dark angel", "mummy", "skull", "ghost"],
     "Scenery": ["house", "building", "farm", "beach", "tree house", "forest", "city", "space", "planet", "waterfall", "mountains", "castle", "destroyed city", "apocalyptic city"],
+    "Science_Fiction": ["robot", "supercomputer", "cyborg", "space station", "war machine", "killer robot", "space soldier", "astronaut", "mutant", "drones"],
     "Vegetables": ["carrot", "chili", "onion", "garlic", "cabbage", "pepper", "cucumber", "potato", "eggplant", "mushroom", "brocoli"],
     "Vehicle": ["car", "bus", "airplane", "spaceship", "spaceship", "motorcycle", "bicycle", "horse", "train", "parachute", "race car", "truck"],
     "Women": ["Little girl", "child girl", "strong woman", "evil woman", "beautiful woman", "fighter woman", "warrior woman", "bad girl", "hero girl", "villain woman"]
