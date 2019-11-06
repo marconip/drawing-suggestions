@@ -33,6 +33,20 @@ body {
     margin: 0 auto;
 }
 
+.titleDraw, .drawingChosen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.drawingChosen {
+    flex-direction: column;
+    justify-content: start;
+    min-height: 120px;
+}
+
 h1,
 h2 {
     font-family: 'Kaushan Script', cursive;
@@ -48,7 +62,8 @@ h1 {
 
 h2 {
     font-size: 30px;
-    line-height: 70px;
+    word-wrap: break-word;
+    word-break: break-word;
 }
 
 p {
@@ -123,10 +138,6 @@ li a:hover {
     padding: 5px;
     border: 1px solid yellow;
     border-radius: 3px;
-}
-
-.drawingChosen {
-    min-height: 110px;
 }
 
 .drawingDay {

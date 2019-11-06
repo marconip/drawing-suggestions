@@ -1,6 +1,7 @@
 var objetos, item;
 objetos = {
     "Animals": ["dog", "cat", "lion", "elephant", "bird", "eagle", "giraffe", "bear", "rhino", "monkey", "turtle", "zebra", "camel", "alligator", "tiger", "horse"],
+    "Athletes": ["soccer player", "basketball player", "boxer", "fighter", "runner", "cyclist", "swimmer", "baseball player", "bodybuilder", "skateboarder", "gymnast", "archer"],
     "Comic_Heroes": ["Batman", "Spider-Man", "Wolverine", "Iron Man", "Captain America", "Superman", "Flash", "Hulk", "Thor", "Storm", "Nightcrawler", "Colossus", "Captain Marvel", "Batgirl"],
     "Comic_Villains": ["Joker", "Magneto", "Catwoman", "Deathstroke", "Lex Luthor", "Thanos", "Harley Quinn", "Bane", "Venom", "Scarecrow", "Doctor Octopus", "Mystique"],
     "Disney_Characters": ["Mickey Mouse", "Minnie Mouse", "Goofy (Disney)", "Donald Duck", "Pluto", "Tinker Bell", "Captain Hook", "Peter Pan", "Maleficent", "Pinocchio", "Elsa (frozen)"],
