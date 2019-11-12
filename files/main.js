@@ -16,7 +16,7 @@ objetos = {
 }
 
 var cont = 0;
-var numero = getRandomInt(0, 10);///////NUMERO DE OBJETOS (COMEÇA EM 0)///////
+var numero = getRandomInt(0, 12);///////NUMERO DE OBJETOS (COMEÇA EM 0)///////
 
 //PECORRE TODAS OS OBJETOS E RETONA NO MENU TEMA
 for (var item in objetos) {
