@@ -16,6 +16,8 @@ objetos = {
 
     "Monsters": ["frankenstein", "vampire", "wolfman", "zombie", "dragon", "godzilla", "dark angel", "mummy", "skull", "ghost"],
 
+    "professions": ["cook", "farmer", "mechanic", "athlete", "driver", "race pilot", "plane pilot", "policeman", "doctor", "student", "fireman", "gym instructor", "teacher"],
+
     "Scenery": ["house", "building", "farm", "beach", "tree house", "forest", "city", "space", "planet", "waterfall", "mountains", "castle", "destroyed city", "apocalyptic city"],
 
     "Science_Fiction": ["robot", "supercomputer", "cyborg", "space station", "war machine", "killer robot", "space soldier", "astronaut", "mutant", "drones", "Alien"],
@@ -24,13 +26,13 @@ objetos = {
 
     "Vehicle": ["car", "bus", "airplane", "spaceship", "spaceship", "motorcycle", "bicycle", "horse", "train", "parachute", "race car", "truck"],
 
-    "Verbs": ["pulando", "correndo", "caindo", "chutando", "socando", "abaixando", "defendendo", "cansado", "gritando", "sorrindo", "feliz", "triste"],
+    "Verbs": ["jumping", "running", "falling", "kicking", "punching", "lowering", "defending", "eating", "tired", "screaming", "smiling", "happy", "sad"],
 
     "Women": ["Little girl", "child girl", "strong woman", "evil woman", "beautiful woman", "fighter woman", "warrior woman", "bad girl", "hero girl", "villain woman"]
 }
 
 var cont = 0;
-var numero = getRandomInt(0, 13);///////NUMERO DE OBJETOS (COMEÇA EM 0)///////
+var numero = getRandomInt(0, 14);///////NUMERO DE OBJETOS (COMEÇA EM 0)///////
 
 //PECORRE TODAS OS OBJETOS E RETONA NO MENU TEMA
 for (var item in objetos) {
