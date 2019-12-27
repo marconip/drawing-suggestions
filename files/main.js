@@ -47,11 +47,14 @@ for (var item in objetos) {
 
     //BUSCA ITENS PARA MOSTRAR SUGESTÃO DO DIA
     if (cont == numero) {
+        var listaTs = eval("objetos");
         var listaTema = eval("objetos." + item);
         var doDia = getRandomInt(0, listaTema.length - 1);
 
         var suggestion01 = document.querySelector('.drawingDay');
+        var suggestion01B = document.querySelector('.drawingDayTheme');
         suggestion01.innerHTML = listaTema[doDia];
+        suggestion01B.innerHTML = "(" + Object.keys(objetos)[numero].replace("_", " ") + ")";
     }
     cont++;
 }

@@ -35,16 +35,27 @@ body {
 
 .titleDraw, .drawingChosen {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100px;
     overflow: hidden;
 }
 
+.drawingDayTheme {
+    font-size: 13px;
+    margin: 0;
+    animation: 1s ease 0s 1 fadein, 2s ease 1s 1 fadein-ok;
+}
+
 .drawingChosen {
     flex-direction: column;
     justify-content: start;
     min-height: 120px;
+}
+
+.drawingChosen p{
+    animation: 2s ease 0s 1 fadein-ok;
 }
 
 h1,
@@ -179,5 +190,15 @@ li a:hover {
 
     100% {
         opacity: 0;
+    }
+}
+
+@keyframes fadein-ok {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
